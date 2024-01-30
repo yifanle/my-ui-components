@@ -6,7 +6,7 @@ import img2 from 'assets/images/img2.jpg'
 import 'story.css'
 
 export default {
-    title: "Avatar",
+    title: "UI 组件/Avatar",
     component: Avatar,
 }
 

@@ -8,7 +8,7 @@ import React from 'react'
 import 'story.css'
 
 export default {
-    title: "<%= name %>",
+    title: "UI 组件/<%= name %>",
     component: <%= name %>,
 }
 

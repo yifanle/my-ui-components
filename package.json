@@ -40,6 +40,9 @@
     ]
   },
   "devDependencies": {
+    "@ricons/fluent": "^0.12.0",
+    "@ricons/utils": "^0.1.6",
+    "@sicons/fluent": "^0.12.0",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",
