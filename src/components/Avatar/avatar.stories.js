@@ -3,8 +3,6 @@ import React from 'react'
 import img1 from 'assets/images/img1.jpg'
 import img2 from 'assets/images/img2.jpg'
 
-import 'story.css'
-
 export default {
     title: "UI 组件/Avatar",
     component: Avatar,

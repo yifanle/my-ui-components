@@ -4,7 +4,6 @@ import { ReactComponent as AtomIcon} from 'assets/icon/atom.svg'
 import { ReactComponent as MoneyIcon} from '@sicons/fluent/Money16Filled.svg'
 import AccessTime20Regular from '@ricons/fluent/AccessTime20Regular'
 
-import 'story.css'
 
 export default {
     title: "UI 组件/Icon",
