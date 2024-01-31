@@ -21,7 +21,7 @@ export const CustomSize = () => {
 }
 
 export const XIcons = () => {
-    return <div>
+    return <div className="row-elements">
         <Icon icon={MoneyIcon} color={"#000"} opacity={.5}/>
         <Icon icon={AccessTime20Regular} color={"#cccccc"} width={48} height={48}/>
     </div>

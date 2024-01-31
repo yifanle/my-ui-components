@@ -14,7 +14,7 @@ export const ShowZero = () => <Badge showZero count={0} />;
 
 export const DotVariant = () => {
     return (
-        <div>
+        <div className="row-elements">
             <Badge show>
                 <Icon icon={AtomIcon} color="#cccccc"/>
             </Badge>
