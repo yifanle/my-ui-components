@@ -3,6 +3,7 @@ import React from 'react'
 import { ReactComponent as AtomIcon} from 'assets/icon/atom.svg'
 import { ReactComponent as MoneyIcon} from '@sicons/fluent/Money16Filled.svg'
 import AccessTime20Regular from '@ricons/fluent/AccessTime20Regular'
+import { Money16Regular } from '@ricons/fluent'
 
 
 export default {
@@ -23,6 +24,7 @@ export const CustomSize = () => {
 export const XIcons = () => {
     return <div className="row-elements">
         <Icon icon={MoneyIcon} color={"#000"} opacity={.5}/>
+        <Icon icon={Money16Regular}></Icon>
         <Icon icon={AccessTime20Regular} color={"#cccccc"} width={48} height={48}/>
     </div>
 }
