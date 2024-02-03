@@ -10,6 +10,8 @@ export default {
 
     grayDark: "#181C2F",
 
+    background: "white",
+
     normal: "1.4rem",
     medium: "1.6rem",
 
