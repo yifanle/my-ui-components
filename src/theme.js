@@ -11,6 +11,8 @@ export default {
     grayDark: "#181C2F",
 
     background: "white",
+    inactiveColor: "rgba(41,47,76,0.3)",
+    inactiveColorDark: "white",
 
     normal: "1.4rem",
     medium: "1.6rem",

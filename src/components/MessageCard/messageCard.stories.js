@@ -18,3 +18,43 @@ export const Default = () => (
         unreadCount={2}
     />
 );
+
+export const ActiveMessage = () => (
+    <MessageCard
+        active
+        avatarSrc={img2}
+        name="李铭浩"
+        avatarStatus="online"
+        statusText="在线"
+        time="3小时之前"
+        message="即使爬到最高的山上，一次也只能脚踏实地地"
+        unreadCount={2}
+    />
+);
+
+export const ActiveRepliedMessage = () => (
+    <MessageCard
+        active
+        replied
+        avatarSrc={img2}
+        name="李铭浩"
+        avatarStatus="online"
+        statusText="在线"
+        time="3小时之前"
+        message="即使爬到最高的山上，一次也只能脚踏实地地"
+        unreadCount={2}
+    />
+);
+
+export const RepliedInactiveMessage = () => (
+    <MessageCard
+        replied
+        avatarSrc={img2}
+        name="李铭浩"
+        avatarStatus="online"
+        statusText="在线"
+        time="3小时之前"
+        message="即使爬到最高的山上，一次也只能脚踏实地地"
+        unreadCount={2}
+    />
+);
